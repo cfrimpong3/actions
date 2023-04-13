@@ -14,11 +14,11 @@ resource "aws_vpc" "actions" {
 }
 
 terraform {
-  required_version = "~> 1.0"
+  required_version = "1.4.5"
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.0" # Optional but recommended in production
+      version = "3.76.1" # Optional but recommended in production
     }
   }
   backend "s3" {
