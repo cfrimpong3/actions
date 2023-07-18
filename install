@@ -1,0 +1,1 @@
+npm install semantic-release @semantic-release/git @semantic-release/github -D
